@@ -1,0 +1,16 @@
+583 modules in both versions
+
+change type                               rule     needed  found  recall  flags precision
+access rights (ir.model.access / ir.rule) SEC001      206    206    100%    206      100%
+Font Awesome icons                        XML006      168    168    100%    168      100%
+get_param / set_param                     PY001       114    114    100%    114      100%
+QWeb t-esc                                XML001       73     73    100%     73      100%
+type=base64 in XML                        XML004       61     61    100%     61      100%
+report_file field                         XML007       35     35    100%     35      100%
+odoo.tools import moves                   PY007        20     20    100%     20      100%
+search filter date-range attributes       XML003        2      2    100%      2      100%
+self._cr / _uid / _context                PY009         1      1    100%      1      100%
+QWeb t-raw                                XML002        0      0       -      0         -
+removed access-check methods              PY004         0      0       -      0         -
+FLD001: 702 findings, 99% confirmed by Odoo's own 20.0 change
+FLD002: 276 findings, 96% confirmed by Odoo's own 20.0 change

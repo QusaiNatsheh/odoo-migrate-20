@@ -1,0 +1,10 @@
+module                      v19 (unchanged)         after fix               real 20.0               left
+auth_ldap                   install failed          1 test failures (3 tests)PASS (5 tests)          ['PY011']
+pos_safaricom               install failed          install failed          PASS (6 tests)          ['FLD001', 'VIEW001']
+cloud_storage_migration     install failed          2 test failures (4 tests)PASS (4 tests)          ['PY001']
+data_recycle                install failed          PASS (8 tests)          PASS (9 tests)          []
+base_import_module          install failed          install failed          PASS (30 tests)         ['PY011']
+hr_recruitment_skills       install failed          install failed          PASS (37 tests)         ['FLD001', 'VIEW001']
+hr_holidays_attendance      install failed          install failed          PASS (167 tests)        ['FLD001', 'FLD002', 'FLD003', 'VIEW001']
+sale_pdf_quote_builder      install failed          install failed          PASS (17 tests)         ['FLD002', 'PY001']
+website_sale_loyalty        install failed          install failed          PASS (33 tests)         ['PY001', 'PY011', 'VIEW001']

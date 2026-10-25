@@ -1,0 +1,290 @@
+[
+ {
+  "module": "auth_ldap",
+  "files_changed_by_fix": 4,
+  "remaining_errors": 1,
+  "remaining_rules": [
+   "PY011"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 1,
+    "total": 3
+   },
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 5
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "pos_safaricom",
+  "files_changed_by_fix": 3,
+  "remaining_errors": 2,
+  "remaining_rules": [
+   "FLD001",
+   "VIEW001"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 6
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "cloud_storage_migration",
+  "files_changed_by_fix": 5,
+  "remaining_errors": 9,
+  "remaining_rules": [
+   "PY001"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 2,
+    "total": 4
+   },
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 4
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "data_recycle",
+  "files_changed_by_fix": 4,
+  "remaining_errors": 0,
+  "remaining_rules": [],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 8
+   },
+   "passed": true
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 9
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "base_import_module",
+  "files_changed_by_fix": 4,
+  "remaining_errors": 1,
+  "remaining_rules": [
+   "PY011"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 30
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "hr_recruitment_skills",
+  "files_changed_by_fix": 4,
+  "remaining_errors": 2,
+  "remaining_rules": [
+   "FLD001",
+   "VIEW001"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 37
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "hr_holidays_attendance",
+  "files_changed_by_fix": 3,
+  "remaining_errors": 22,
+  "remaining_rules": [
+   "FLD001",
+   "FLD002",
+   "FLD003",
+   "VIEW001"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 167
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "sale_pdf_quote_builder",
+  "files_changed_by_fix": 6,
+  "remaining_errors": 3,
+  "remaining_rules": [
+   "FLD002",
+   "PY001"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 17
+   },
+   "passed": true
+  }
+ },
+ {
+  "module": "website_sale_loyalty",
+  "files_changed_by_fix": 4,
+  "remaining_errors": 3,
+  "remaining_rules": [
+   "PY001",
+   "PY011",
+   "VIEW001"
+  ],
+  "v19": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "fixed": {
+   "installed": false,
+   "install_error": "registry: Failed to load registry",
+   "tests": null,
+   "passed": false
+  },
+  "v20": {
+   "installed": true,
+   "install_error": null,
+   "tests": {
+    "failed": 0,
+    "errors": 0,
+    "total": 33
+   },
+   "passed": true
+  }
+ }
+]

@@ -1,0 +1,149 @@
+{
+ "modules": 583,
+ "change_types": {
+  "access rights (ir.model.access / ir.rule)": {
+   "tp": 206,
+   "fn": 0,
+   "fp": 0,
+   "tn": 377,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "SEC001",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "get_param / set_param": {
+   "tp": 114,
+   "fn": 0,
+   "fp": 0,
+   "tn": 469,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "PY001",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "QWeb t-esc": {
+   "tp": 73,
+   "fn": 0,
+   "fp": 0,
+   "tn": 510,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "XML001",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "QWeb t-raw": {
+   "tp": 0,
+   "fn": 0,
+   "fp": 0,
+   "tn": 583,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "XML002",
+   "recall": null,
+   "precision": null
+  },
+  "search filter date-range attributes": {
+   "tp": 2,
+   "fn": 0,
+   "fp": 0,
+   "tn": 581,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "XML003",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "type=base64 in XML": {
+   "tp": 61,
+   "fn": 0,
+   "fp": 0,
+   "tn": 522,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "XML004",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "Font Awesome icons": {
+   "tp": 168,
+   "fn": 0,
+   "fp": 0,
+   "tn": 415,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "XML006",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "report_file field": {
+   "tp": 35,
+   "fn": 0,
+   "fp": 0,
+   "tn": 548,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "XML007",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "removed access-check methods": {
+   "tp": 0,
+   "fn": 0,
+   "fp": 0,
+   "tn": 583,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "PY004",
+   "recall": null,
+   "precision": null
+  },
+  "self._cr / _uid / _context": {
+   "tp": 1,
+   "fn": 0,
+   "fp": 0,
+   "tn": 582,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "PY009",
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "odoo.tools import moves": {
+   "tp": 20,
+   "fn": 0,
+   "fp": 0,
+   "tn": 563,
+   "fn_modules": [],
+   "fp_modules": [],
+   "rule": "PY007",
+   "recall": 1.0,
+   "precision": 1.0
+  }
+ },
+ "field_rule_findings": {
+  "FLD001_confirmed": 695,
+  "FLD001_unconfirmed": 7,
+  "FLD002_confirmed": 264,
+  "FLD002_unconfirmed": 12
+ },
+ "field_unconfirmed_examples": [
+  "account/wizard/setup_wizards_view.xml:43 account.setup.bank.manual.config.bank_bic does not exist in Odoo 20",
+  "crm/wizard/crm_lead_to_opportunity_mass_views.xml:30 crm.lead2opportunity.partner.mass.user_id does not exist in Odoo 20",
+  "hr/models/res_partner_bank.py:20 res.partner.bank.currency_id does not exist in Odoo 20",
+  "l10n_ch/views/setup_wizard_views.xml:9 account.setup.bank.manual.config.bank_bic does not exist in Odoo 20",
+  "l10n_id/models/res_bank.py:108 res.partner.bank.bank_id does not exist in Odoo 20",
+  "l10n_it_edi/models/res_partner.py:123 res.partner.first_name does not exist in Odoo 20 (possibly replaced by l10n_gr_edi_contracting_autho",
+  "l10n_it_edi/models/res_partner.py:124 res.partner.last_name does not exist in Odoo 20 (possibly replaced by l10n_gr_edi_contracting_author",
+  "mass_mailing/views/mailing_mailing_views.xml:9 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mass_mailing/views/mailing_mailing_views.xml:375 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mass_mailing_crm/models/mailing_mailing.py:41 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mass_mailing_sale/models/mailing_mailing.py:52 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mass_mailing_sale/models/mailing_mailing.py:78 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mass_mailing_sms/models/mailing_mailing.py:126 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mass_mailing_sms/models/mailing_mailing.py:390 mailing.mailing.name does not exist in Odoo 20 (possibly replaced by ab_testing_version_name)",
+  "mrp_account/models/mrp_workorder.py:36 mrp.workorder.product_uom_id does not exist in Odoo 20 (possibly replaced by uom_id)"
+ ]
+}

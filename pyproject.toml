@@ -1,0 +1,26 @@
+[project]
+name = "odoo-migrate-20"
+version = "1.0.0"
+description = "Scan Odoo 19 modules for what breaks in Odoo 20, apply safe fixes, and suggest the rest"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "libcst>=1.4",
+    "lxml>=5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+odoo-migrate = "odoo_migrate.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+odoo_migrate = ["catalog/*.json"]
